@@ -1,0 +1,27 @@
+{
+  "name": "get-api-server-endpoint",
+  "version": "1.0.0",
+  "description": "A hosted express server that creates a (GET) API endpoint and returns a  JSON response",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anajembaedwin/GET-API-Server-Endpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anajembaedwin/GET-API-Server-Endpoint/issues"
+  },
+  "homepage": "https://github.com/anajembaedwin/GET-API-Server-Endpoint#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
