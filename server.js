@@ -16,7 +16,7 @@ const users = {
     "bio": "I am a budding Backend Developer who enjoys watching sci-fi movies" 
 }
 
-app.get("/users", (req, res) => {
+app.get("/", (req, res) => {
     res.json(users);
 })
 
